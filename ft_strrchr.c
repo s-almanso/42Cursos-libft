@@ -6,9 +6,11 @@
 /*   By: salmanso <salmanso@student.42abudhabi.ae>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/30 00:12:07 by salmanso          #+#    #+#             */
-/*   Updated: 2021/12/30 00:29:29 by salmanso         ###   ########.fr       */
+/*   Updated: 2022/01/03 15:39:20 by salmanso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
 {

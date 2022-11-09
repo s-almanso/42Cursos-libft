@@ -6,7 +6,7 @@
 /*   By: salmanso <salmanso@student.42abudhabi.ae>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/20 17:38:32 by salmanso          #+#    #+#             */
-/*   Updated: 2021/12/30 00:29:35 by salmanso         ###   ########.fr       */
+/*   Updated: 2022/01/03 16:55:13 by salmanso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,18 +30,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(str, (char *)(s + start), len + 1);
 	return (str);
 }
-
-/*
-#include <stdio.h>
-int main(void)
-{
-	char ar[]="Hello World!";
-	char *tmp;
-
-	tmp = ft_substr(ar, 6, 6);
-	printf("%s\n", tmp);
-
-
-	return 0;
-}
-*/

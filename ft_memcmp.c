@@ -6,7 +6,7 @@
 /*   By: salmanso <salmanso@student.42abudhabi.ae>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/20 17:33:58 by salmanso          #+#    #+#             */
-/*   Updated: 2021/12/29 21:33:29 by salmanso         ###   ########.fr       */
+/*   Updated: 2022/01/03 16:50:32 by salmanso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,18 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-/*
-int main(void)
-{
-	char ar[]="Start stop";
-	char ar2[]="Start";
-
-	if(ft_memcmp(ar, ar2, 11) == 0)
-		printf("Arrays the same \n");
-	else if (ft_memcmp(ar, ar2, 5) > 1 || ft_memcmp(ar, ar2, 5) < 1)
-		printf("Arrays are diff \n");
-
-	return 0;
-}
-*/
